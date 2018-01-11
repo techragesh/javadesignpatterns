@@ -1,0 +1,18 @@
+Realtime Examples:
+
+# Runtime.getRuntime()
+# Spring Beans
+# Logger
+
+Disadvantages:
+
+# Over usage and difficult to perform unit testing (difficult to handle in single jvm)
+# Sometime confused with factory pattern
+
+Notes:
+
+Calender cal1 = Calender.getInstance()
+Calender cal2 = Calender.getInstance()
+This is not a singleton pattern. Its a factory one.
+if we print cal1 and cal2 it will give two different instance.
+I mean it will return different cal values.

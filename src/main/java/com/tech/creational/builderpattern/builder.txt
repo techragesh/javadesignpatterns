@@ -1,0 +1,30 @@
+Realtime Examples:
+
+# String builder
+# Document builder
+# Locale builder
+
+# Builder Pattern
+
+We are often use it in API and bascially used in mock and it used in a immutable way.
+If you have complex setters and alot of arguments we can go for builder pattern.
+
+Separate the construction of a complex object from its representation so that
+the same construction process can create different representations.
+
+Allows you to create different flavors of an object while avoiding constructor pollution.
+Useful when there could be several flavors of an object. Or when there are a lot of steps involved in creation of an object.
+
+The builder pattern is an object creation software design pattern with the intentions
+of finding a solution to the telescoping constructor anti-pattern.
+
+Disadvantages:
+
+# Its immutable and it has inner static class and complex and we have to designed first and complex.
+
+
+# Lombok Implemetation
+
+  Annotate @Builder to implement Builder Design Pattern in Java.
+  Removed boiler plate code by using this annotation.
+
